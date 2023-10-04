@@ -16,11 +16,20 @@ function Home() {
           </header>
         </div>
 
+        <div className="hero container">
+          <p>Discover Developers, One Click at a Time!</p>
+        </div>
+
         <div className="container">
           <div className="search-field">
-            <div>
+            <div className="srch">
               <img src="images/Combined Shape.png" alt="" />
-              <input type="text" name="" id="" />
+              <input
+                type="text"
+                name=""
+                id=""
+                placeholder="Search GitHub username…"
+              />
             </div>
 
             <button>Search</button>
